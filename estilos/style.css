@@ -14,7 +14,7 @@ html, body {
 body {
     background: url(../imagens/fundo-madeira.jpg) no-repeat center center fixed;
     background-size: cover;
-    
+
 }
 main {
     position: relative;
@@ -30,4 +30,13 @@ section#telefone {
     width: 311px;
     background-color: blue;
     background: url(../imagens/frame-iphone.png) no-repeat;
+}
+section#telefone iframe#tela {
+    position: absolute;
+    top: 4.8%;
+    left: 7%;
+    height: 90.5%;
+    width: 86.7%;
+    border: none;
+    border-radius: 30px;
 }
